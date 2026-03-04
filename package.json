@@ -1,0 +1,13 @@
+{
+  "name": "soundscout",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch server.js",
+    "start": "bun server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
