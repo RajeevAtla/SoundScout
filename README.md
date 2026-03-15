@@ -13,6 +13,8 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command `SELECT * FROM tablename;` to display your table contents.**
 
 The following **optional** features are implemented:
 
@@ -28,17 +30,17 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to include and submit a GIF walkthrough before turning in.**
-
 Here's a walkthrough of implemented required features:
 
-![gif of website's demo](demo.gif)
+<img src='./demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ScreenToGif
 
 
 
 ## Notes
 
-Main challenge was migrating the app from hardcoded event data to a hosted PostgreSQL database while preserving the original no-framework UI and route structure. The app now verifies the database connection on startup, reads the list and detail views from Postgres, and keeps the original custom 404 fallback.
+Main challenge was migrating the app from hardcoded event data to a hosted PostgreSQL database while preserving the original no-framework UI and route structure. The app now verifies the database connection on startup, reads the list and detail views from Postgres, and keeps the original custom 404 fallback. The walkthrough still needs to be refreshed so it explicitly shows the Render Postgres dashboard and table contents query required by the template.
 
 ## License
 
